@@ -11,11 +11,11 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
 * Format: CSV 
 * Description:
 *The dataset contains customer-level transactional data, including:
-* o	Customer demographics (Age, Gender)
-* o	Product details (Item Purchased, Category, Size, Color)
-* o	Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
-* o	Engagement metrics (Review Ratings, Subscription Status)
-* o	Purchase history (Previous Purchases)
+  o	Customer demographics (Age, Gender)
+  o	Product details (Item Purchased, Category, Size, Color)
+  o	Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
+  o	Engagement metrics (Review Ratings, Subscription Status)
+  o	Purchase history (Previous Purchases)
 
 
                  
@@ -38,21 +38,22 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
 
 Loaded CSV data into Excel
 Checked For:
-     Missing Values
-     Check data quality before analysis
+     •	Missing Values
+     •	Check data quality before analysis
+
      
 <img width="931" height="486" alt="image" src="https://github.com/user-attachments/assets/d054f302-fa3c-47ea-a473-bd613657ec7b" />
 
 
 ### 3. Exploratory Data Analysis (Python - Pandas)
 
-*Loaded dataset into Jupyter Notebook
+Loaded dataset into Jupyter Notebook
 
-*Used Pandas for:
-*•	Data inspection (head(), info(), describe())
-*•	Preparing clean, analysis-ready data
-*•	Feature engineering (e.g., age group segmentation)
-*•	Exported processed data for SQL analysis
+Used Pandas for:
+ •	Data inspection (head(), info(), describe())
+ •	Preparing clean, analysis-ready data
+ •	Feature engineering (e.g., age group segmentation)
+ •	Exported processed data for SQL analysis
 
  <img width="935" height="473" alt="image" src="https://github.com/user-attachments/assets/cae904ef-ab37-46c6-b689-b17945c635c2" />
 
@@ -85,29 +86,14 @@ Checked For:
 
 * Identified key trends and patterns in the dataset
 * Highlighted performance metrics and anomalies
-* Provided actionable recommendations based on data - 
-        • Boost Subscriptions – Promote exclusive benefits for subscribers.
-
-        • Customer Loyalty Programs – Reward repeat buyers to move them into the 'Loyal' segment.
-
-        • Review Discount Policy – Balance sales boosts with margin control.
-
-        • Product Positioning – Highlight top-rated and best-selling products in campaigns.
-
-        • Targeted Marketing – Focus efforts on high-revenue age groups and express-shipping use
+* Provided actionable recommendations based on data -
+   • Boost Subscriptions – Promote exclusive benefits for subscribers.
+   • Customer Loyalty Programs – Reward repeat buyers to move them into the 'Loyal' segment.
+   • Review Discount Policy – Balance sales boosts with margin control.
+   • Product Positioning – Highlight top-rated and best-selling products in campaigns.
+   • Targeted Marketing – Focus efforts on high-revenue age groups and express-shipping use
   
-## Project Structure
 
-```
-├── data/                # Raw and cleaned datasets  
-├── python/              # Jupyter notebooks (EDA & analysis)  
-├── sql/                 # SQL queries  
-├── dashboard/           # Power BI files  
-├── reports/             # Final report & presentation                
-└── README.md  
-```
-
----
 
 ## Future Improvements
 
