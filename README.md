@@ -11,12 +11,14 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
 * Format: CSV 
 * Description:
   The dataset contains customer-level transactional data, including:
+  o	Customer demographics (Age, Gender)
+  o	Product details (Item Purchased, Category, Size, Color)
+  o	Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
+  o	Engagement metrics (Review Ratings, Subscription Status)
+  o	Purchase history (Previous Purchases)
 
-                  Customer demographics (Age, Gender)
-                  Product details (Item Purchased, Category, Size, Color)
-                  Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
-                  Engagement metrics (Review Ratings, Subscription Status)
-                  Purchase history (Previous Purchases)
+
+                 
 
 ---
 
@@ -38,6 +40,7 @@ Loaded CSV data into Excel
 Checked For:
      Missing Values
      Check data quality before analysis
+     
 <img width="931" height="486" alt="image" src="https://github.com/user-attachments/assets/d054f302-fa3c-47ea-a473-bd613657ec7b" />
 
 
@@ -46,21 +49,19 @@ Checked For:
 Loaded dataset into Jupyter Notebook
 
 Used Pandas for:
+ •	Data inspection (head(), info(), describe())
+ •	Preparing clean, analysis-ready data
+ •	Feature engineering (e.g., age group segmentation)
+ •	Exported processed data for SQL analysis
 
-            Data inspection (head(), info(), describe())
-
-            Preparing clean, analysis-ready data
-           
-            Feature engineering (e.g., age group segmentation)
-
-            Exported processed data for SQL analysis
-            <img width="935" height="473" alt="image" src="https://github.com/user-attachments/assets/cae904ef-ab37-46c6-b689-b17945c635c2" />
+ <img width="935" height="473" alt="image" src="https://github.com/user-attachments/assets/cae904ef-ab37-46c6-b689-b17945c635c2" />
 
 
 ### 4. Business Questions & SQL Analysis (PostgreSQL)
 
 * Loaded cleaned data into database
 * Wrote queries to extract insights
+* 
 <img width="940" height="454" alt="image" src="https://github.com/user-attachments/assets/df5122d7-e954-4925-991f-4c7d12f03e4f" />
 
 
@@ -70,6 +71,7 @@ Used Pandas for:
 * Included visual insights
 * Trend analysis visuals
 * Focused on clarity and usability
+* 
   <img width="1073" height="623" alt="image" src="https://github.com/user-attachments/assets/211f8e90-26ce-461a-967e-24dbe9475dc1" />
 
 
