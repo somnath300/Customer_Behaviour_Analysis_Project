@@ -13,13 +13,9 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
   The dataset contains customer-level transactional data, including:
 
                   Customer demographics (Age, Gender)
-
                   Product details (Item Purchased, Category, Size, Color)
-
                   Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
-
                   Engagement metrics (Review Ratings, Subscription Status)
-
                   Purchase history (Previous Purchases)
 
 ---
@@ -45,7 +41,7 @@ Checked For:
 <img width="931" height="486" alt="image" src="https://github.com/user-attachments/assets/d054f302-fa3c-47ea-a473-bd613657ec7b" />
 
 
-### 3. Exploratory Data Analysis (Pythpn - Pandas)
+### 3. Exploratory Data Analysis (Python - Pandas)
 
 Loaded dataset into Jupyter Notebook
 
