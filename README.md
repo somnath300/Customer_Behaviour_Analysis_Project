@@ -10,7 +10,7 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
 
 * Format: CSV 
 * Description:
-*The dataset contains customer-level transactional data, including:
+ The dataset contains customer-level transactional data, including:
   o	Customer demographics (Age, Gender)
   o	Product details (Item Purchased, Category, Size, Color)
   o	Purchase behaviour (Purchase Amount, Discounts, Shipping Type)
