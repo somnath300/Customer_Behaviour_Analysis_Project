@@ -33,7 +33,7 @@ This project demonstrates an end-to-end data analytics workflow, covering data l
 
 ## Project Steps
 
-### 1. Data Loading and Validation(using EXCEL)
+### 1. Data Loading and Validation (using EXCEL)
 
 * Loaded CSV data into Excel
 * Checked For:
